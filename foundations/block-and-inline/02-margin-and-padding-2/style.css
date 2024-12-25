@@ -29,10 +29,19 @@ body {
   text-align: center;
 }
 
-button {
+div.button {
+  width: 100px;
   display: block;
   background: white;
-  border: 1px solid #eee;
+  border: 2px solid #eee;
+  border-radius: 20px;
   padding: 8px 16px;
   margin: 8px auto;
+  text-decoration: none;
+}
+
+div.button:hover {
+  background: #ccc;
+  border-color: #bbb;
+  color: #333;
 }
